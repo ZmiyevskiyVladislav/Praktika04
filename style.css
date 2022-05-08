@@ -1,0 +1,89 @@
+#wrapper
+{
+    position: absolute;
+        top: 35%;
+        left: 20%;
+        margin-right: -70%;
+        transform: translate(-50%, -50%);
+}
+#palitra
+{
+    border:1px solid black;
+/*    border-collapse: collapse;*/
+    width:300px;
+    height:300px;
+    border-collapse: collapse;
+    
+}
+tr
+{
+    width:100px;
+    
+}
+td
+{
+    width:100px;
+    height:100px;
+   
+}
+#selected{
+    position: absolute;
+    width:100px;
+    height:100px;
+    border:  2mm ridge gray;
+    margin-left: -2mm;
+    margin-top: -2mm;
+}
+.palitra_trs:nth-child(1) td:nth-child(1)
+{
+    background-color: red;
+}
+.palitra_trs:nth-child(1) td:nth-child(2)
+{
+    background-color: orange;
+}
+.palitra_trs:nth-child(1) td:nth-child(3)
+{
+    background-color: yellow;
+}
+.palitra_trs:nth-child(2) td:nth-child(1)
+{
+    background-color: purple;
+}
+.palitra_trs:nth-child(2) td:nth-child(2)
+{
+    background-color: brown;
+}
+.palitra_trs:nth-child(2) td:nth-child(3)
+{
+    background-color: black;
+}
+.palitra_trs:nth-child(3) td:nth-child(1)
+{
+    background-color: green;
+}
+.palitra_trs:nth-child(3) td:nth-child(2)
+{
+    background-color: blue;
+}
+.palitra_trs:nth-child(3) td:nth-child(3)
+{
+    background-color: white;
+}
+
+#canvas
+{
+    position: absolute;
+    border:1px solid dotted;
+/*    border-collapse: collapse;*/
+    width:600px;
+    height:600px;
+    border-collapse: collapse;
+    
+}
+#canvas tr td
+{
+    width:50px;
+    height:50px;
+    border: 1px solid black;
+}

@@ -1,0 +1,77 @@
+body
+{
+    background: no-repeat url(img/background.jpg);
+    background-size: cover;
+}
+#wrapper
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#cards
+{
+/*    border-collapse: collapse;*/
+    width:80%;
+    height:45.5%;
+    border-collapse: collapse;
+    position: absolute;
+    top:100px;
+    flex-direction: row;
+     perspective: 1000px;
+}
+#cards div
+{
+    float: left;
+    width:24%;
+    height:100px;
+   margin-left: 1%;
+    perspective: 1000px;
+   
+}
+#cards div img
+{
+    width:100%;
+ -webkit-transform:rotateY(180deg); 
+ transform: rotateY(180deg) ;
+}
+#anim
+{
+    width:100%;
+    -webkit-animation: turnOver 1s linear  alternate;
+                -moz-animation: turnOver 1s linear alternate;
+                -o-animation: turnOver 1s  linear alternate;
+                animation: turnOver 1s  linear alternate;
+}
+@-webkit-keyframes turnOver {
+                0%{
+                    -webkit-transform:rotateY(0) ;
+                    transform: rotateY(0) ;
+                    
+                }
+                100%{
+                    -webkit-transform:rotateY(180deg); 
+                    transform: rotateY(180deg) ;
+                    
+                }
+}
+#anim2
+{
+    width:100%;
+    -webkit-animation: turnOver2 1s linear  alternate;
+                -moz-animation: turnOver2 1s linear alternate;
+                -o-animation: turnOver2 1s  linear alternate;
+                animation: turnOver2 1s  linear alternate;
+}
+@-webkit-keyframes turnOver2 {
+                0%{
+                    -webkit-transform:rotateY(180deg) ;
+                    transform: rotateY(180deg) ;
+                    
+                }
+                100%{
+                    -webkit-transform:rotateY(360deg); 
+                    transform: rotateY(360deg) ;
+                    
+                }
+}
