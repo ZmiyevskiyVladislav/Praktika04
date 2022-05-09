@@ -34,39 +34,39 @@ td
     margin-left: -2mm;
     margin-top: -2mm;
 }
-.palitra_trs:nth-child(1) td:nth-child(1)
+#palitra tr:nth-child(1) td:nth-child(1)
 {
     background-color: red;
 }
-.palitra_trs:nth-child(1) td:nth-child(2)
+#palitra tr:nth-child(1) td:nth-child(2)
 {
     background-color: orange;
 }
-.palitra_trs:nth-child(1) td:nth-child(3)
+#palitra tr:nth-child(1) td:nth-child(3)
 {
     background-color: yellow;
 }
-.palitra_trs:nth-child(2) td:nth-child(1)
+#palitra tr:nth-child(2) td:nth-child(1)
 {
     background-color: purple;
 }
-.palitra_trs:nth-child(2) td:nth-child(2)
+#palitra tr:nth-child(2) td:nth-child(2)
 {
     background-color: brown;
 }
-.palitra_trs:nth-child(2) td:nth-child(3)
+#palitra tr:nth-child(2) td:nth-child(3)
 {
     background-color: black;
 }
-.palitra_trs:nth-child(3) td:nth-child(1)
+#palitra tr:nth-child(3) td:nth-child(1)
 {
     background-color: green;
 }
-.palitra_trs:nth-child(3) td:nth-child(2)
+#palitra tr:nth-child(3) td:nth-child(2)
 {
     background-color: blue;
 }
-.palitra_trs:nth-child(3) td:nth-child(3)
+#palitra tr:nth-child(3) td:nth-child(3)
 {
     background-color: white;
 }
